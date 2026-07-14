@@ -29,8 +29,8 @@ public class Day2 {
         double num = in.nextDouble();
         double square = ( num * num );
         double cube = ( square * num ); // (num * num * num )
-        System.out.print(" Square is : " + square);
-        System.out.print(" Cube is : " + cube);
+        System.out.println(" Square is : " + square);
+        System.out.println(" Cube is : " + cube);
         
     }
 }
