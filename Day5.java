@@ -24,43 +24,60 @@ public class Day5{
         // else{
         //     System.out.println("ERROR");
         // }
-        System.out.print("enter day:");
-        int day = in.nextInt();
-        switch (day) {
-            case 1:
-                System.out.println("Monday");
+
+
+        // System.out.print("enter day:");
+        // int day = in.nextInt();
+        // switch (day) {
+        //     case 1:
+        //         System.out.println("Monday");
                 
-                break;
-                case 2:
-                System.out.println("Tuesday");
+        //         break;
+        //         case 2:
+        //         System.out.println("Tuesday");
                 
-                break;
-                 case 3:
-                System.out.println("wednesday");
+        //         break;
+        //          case 3:
+        //         System.out.println("wednesday");
                 
-                break;
-                 case 4:
-                System.out.println("Thursday");
+        //         break;
+        //          case 4:
+        //         System.out.println("Thursday");
                 
-                break;
-                 case 5:
-                System.out.println("Friday");
+        //         break;
+        //          case 5:
+        //         System.out.println("Friday");
                 
-                break;
-                 case 6:
-                System.out.println("Saturday");
+        //         break;
+        //          case 6:
+        //         System.out.println("Saturday");
                 
-                break;
-                 case 7:
-                System.out.println("Sunday");
+        //         break;
+        //          case 7:
+        //         System.out.println("Sunday");
                 
-                break;
+        //         break;
                 
         
-            default:
-                System.out.println("Enter day .");
+        //     default:
+        //         System.out.println("Enter day .");
             
-                break;
+        //         break;
+        // }
+
+
+        int n = in.nextInt();
+        if(n>=1 && n<=100){
+            if(n%5==0){
+                System.out.println("Multiple of 5");
+            }
+            else{
+                System.out.println("Not a multiple of 5");
+            }
+        }
+        else{
+            System.out.println("Enter A number between 1 to 100 ");
+
         }
 
         
